@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <h1>Le Formulaires</h1>
+
+    <form action="#" method="post">
+        <div>
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" autofocus required>
+        </div>
+
+        <div>
+            <label for="firstname">Prenom</label>
+            <input type="text" id="firstname" name="firstname" required>
+        </div>
+
+        <div>
+            <label for="password">MDP</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+
+        <div>
+            <label for="number">Jour de naisance</label>
+            <input type="number" id="number" name="number">
+
+            <label for="mounth">Mois de naissance</label>
+            <select id="mounth" name="mounth">
+                <option value="jan">Janvier</option>
+                <option value="fev">Fevrier</option>
+                <option value="mar">Mars</option>
+                <option value="avr">Avril</option>
+                <option value="mai">Mai</option>
+                <option value="jui">Juin</option>
+                <option value="juil">Juillet</option>
+                <option value="aou">Aout</option>
+                <option value="sep">Septembre</option>
+                <option value="oct">Octobre</option>
+                <option value="nov">Novembre</option>
+                <option value="dec">Decembre</option>
+            </select>
+
+            <label for="year">Anée</label>
+            <input type="number" id="year" name="year" max="2021" min="1950">
+        </div>
+
+        <div>
+            <label for="homme">M</label>
+            <input type="radio" name="sexe" id="homme" value="homme">
+
+            <label for="femme">F</label>
+            <input type="radio" name="sexe" id="femme" value="femme">
+        </div>
+
+        <div>
+            <label for="mail">E-Mail</label>
+            <input type="email" id="mail" name="email" required>
+        </div>
+
+        <div>
+            <a href="https://github.com/Droskall?tab=repositories">Mon GITHUB</a>
+        </div>
+
+        <button type="submit" name="submit">Envoyer</button>
+
+    </form>
+
+</body>
+</html>
